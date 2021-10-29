@@ -84,9 +84,10 @@ def spacefind(key):#find the value in the key that uses a space as its value
             print (key[value])
             
 shuffles = setshuffles()    
-key1 = setkey1(shuffles) #text -> numbers
-key2 = setkey2(key1)#numbers to text
+key1,key2 = setkey1(shuffles),setkey2(key1)#numbers to text
 
+
+#examples
 sometext = "the quick brown fox jumped over the lazy dog"
 somecode = [20, 8, 5, 53, 17, 21, 9, 3, 11, 53, 2, 18, 15, 23, 14, 53, 6, 15, 24, 53, 10, 21, 13, 16, 5, 4, 53, 15, 22, 5, 18, 53, 20, 8, 5, 53, 12, 1, 26, 25, 53, 4, 15, 7]
 someboth = "th1s 15 and ex4mpl3 of l33t t3xt"
